@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>SocialApp</h2>
+    </nav>
+
+    <!-- Profile -->
+    <div class="profile">
+        <img src="https://img.magnific.com/free-photo/little-cat-sitting-grass_1150-17019.jpg?semt=ais_hybrid&w=740&q=80" alt="Profile">
+        <h3>Archana</h3>
+    </div>
+
+    <!-- Create Post -->
+    <div class="create-post">
+        <textarea id="postinput" placeholder="What's on your mind?"></textarea>
+        <button onclick="addPost()">Post</button>
+    </div>
+
+    <!-- Feed -->
+    <div class="feed" id="feed">
+        <div class="post">
+            <h3>John</h3>
+            <p>Hello Everyone 👋</p>
+
+            <button onclick="likepost(this)">❤️ Like <span>0</span></button>
+            <button>💬 Comment</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <p>Don't have an account?
+        <a href="register.html">Register</a>
+    </p>
+
+    <p>Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</body>
+</html>
