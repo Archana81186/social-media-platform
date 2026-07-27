@@ -1,0 +1,49 @@
+# 🌐 Social Media Platform
+
+A responsive Social Media Platform developed using HTML, CSS, JavaScript, Node.js, and Express.js. This project was created as part of the **CodeAlpha Web Development Internship**. It allows users to create posts, like posts, comment, edit, and delete posts while demonstrating frontend and backend integration.
+
+---
+
+## 🚀 Features
+
+- 🏠 Responsive Home Page
+- 👤 User Profile Section
+- 🔐 Login Page
+- 📝 Registration Page
+- ✍️ Create New Post
+- ❤️ Like Posts
+- 💬 Comment on Posts
+- ✏️ Edit Posts
+- 🗑️ Delete Posts
+- 🌐 Express.js Backend
+- 🔗 Frontend and Backend Integration
+- 📡 REST API for Posts
+- 🎨 Clean and Modern UI
+
+---
+
+## 🛠️ Technologies Used
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+### Backend
+- Node.js
+- Express.js
+- CORS
+
+---
+
+## 📸 Project Features
+
+- Create Posts
+- Like Posts
+- Comment System
+- Edit Posts
+- Delete Posts
+- Login Interface
+- Registration Interface
+- Backend API
+
